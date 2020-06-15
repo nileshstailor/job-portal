@@ -1,6 +1,19 @@
-import React from "react";
+import React, {useEffect, useState} from "react";
+
 
 function HomeContainer() {
+    const [details, setDetails] = useState({});
+    //this is having empty square brackets at the end so this will work as initialization only
+    useEffect(() => {
+
+
+    }, [])
+    //This bloack is not having square brackets at the end so this will work as updating and initialization phase
+    useEffect(() => {
+
+        
+    })
+
     return (
         <div>
             {/* Intro Banner */}
